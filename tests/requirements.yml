@@ -1,0 +1,2 @@
+- name: openmicroscopy.omero-common
+  src: https://github.com/manics/ansible-role-omero-common.git

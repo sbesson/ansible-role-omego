@@ -10,7 +10,7 @@
 - name: omego | setup virtualenv
   become: yes
   pip:
-    name: omego
+    name: https://github.com/manics/omego/archive/symlink-artifacts.zip
     state: present
     virtualenv: "{{ omero_common_basedir }}/omego"
     virtualenv_site_packages: yes

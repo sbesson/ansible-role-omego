@@ -1,5 +1,5 @@
 ---
-# tasks for roles/omego
+# tasks for omego
 
 - name: omego | install python virtualenv
   become: yes
@@ -12,6 +12,6 @@
   pip:
     name: omego
     state: present
-    version: "{{ omero_omego_version | default(omit) }}"
+    version: "{{ omego_version }}"
     virtualenv: "{{ omero_common_basedir }}/omego"
     virtualenv_site_packages: yes

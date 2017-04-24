@@ -11,5 +11,5 @@ galaxy_info:
   galaxy_tags: []
 
 dependencies:
-- name: openmicroscopy.omero-common
-  src: openmicroscopy.omero-common
+- name: sbesson.omero-common
+  src: sbesson.omero-common

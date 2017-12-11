@@ -12,6 +12,6 @@
   pip:
     name: omego
     state: present
-    version: "{{ omero_omego_version | default(omit) }}"
+    version: "{{ omero_omego_version }}"
     virtualenv: "{{ omero_common_basedir }}/omego"
     virtualenv_site_packages: yes

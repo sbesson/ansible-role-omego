@@ -11,7 +11,7 @@ OMEGO, a utility for downloading and installing OME applications.
 Role Variables
 --------------
 
-Optional, see `defaults/main.yml` for values:
+Optional, see [defaults/main.yml](defaults/main.yml) for values:
 
 - `omero_omego_version`: The `omego` version to install, default latest.
 

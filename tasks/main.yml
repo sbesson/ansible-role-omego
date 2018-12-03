@@ -3,7 +3,7 @@
 
 - name: omego | install python virtualenv
   become: true
-  yum:
+  package:
     name: python-virtualenv
     state: present
 

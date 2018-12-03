@@ -2,16 +2,16 @@
 # tasks for roles/omego
 
 - name: omego | install python virtualenv
-  become: yes
+  become: true
   yum:
     name: python-virtualenv
     state: present
 
 - name: omego | setup virtualenv
-  become: yes
+  become: true
   pip:
     name: omego
     state: present
     version: "{{ omero_omego_version }}"
     virtualenv: "{{ omero_common_basedir }}/omego"
-    virtualenv_site_packages: yes
+    virtualenv_site_packages: true

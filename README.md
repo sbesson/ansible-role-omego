@@ -2,7 +2,7 @@ OMEGO
 =====
 
 [![Build Status](https://travis-ci.org/ome/ansible-role-omego.svg)](https://travis-ci.org/ome/ansible-role-omego)
-[![Ansible Role](https://img.shields.io/ansible/role/17115.svg)](https://galaxy.ansible.com/openmicroscopy/omego/)
+[![Ansible Role](https://img.shields.io/ansible/role/41043.svg)](https://galaxy.ansible.com/ome/omego/)
 
 
 OMEGO, a utility for downloading and installing OME applications.

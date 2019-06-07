@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: omego
   author: ome-devel@lists.openmicroscopy.org.uk
   description: omego, a utility for downloading and installing OME applications
   company: Open Microscopy Environment
@@ -15,5 +16,4 @@ galaxy_info:
   galaxy_tags: []
 
 dependencies:
-  - name: openmicroscopy.omero-common
-    src: openmicroscopy.omero-common
+  - ome.omero_common

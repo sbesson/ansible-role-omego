@@ -1,7 +1,7 @@
 OMEGO
 =====
 
-[![Build Status](https://travis-ci.org/openmicroscopy/ansible-role-omego.svg)](https://travis-ci.org/openmicroscopy/ansible-role-omego)
+[![Build Status](https://travis-ci.org/ome/ansible-role-omego.svg)](https://travis-ci.org/ome/ansible-role-omego)
 [![Ansible Role](https://img.shields.io/ansible/role/17115.svg)](https://galaxy.ansible.com/openmicroscopy/omego/)
 
 

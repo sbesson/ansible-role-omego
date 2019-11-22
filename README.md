@@ -13,7 +13,7 @@ Role Variables
 
 Optional, see [defaults/main.yml](defaults/main.yml) for values:
 
-- `omero_omego_version`: The `omego` version to install.
+- `omero_omego_version`: The `omego` version to install (default: 0.7.0).
 
 
 Author Information

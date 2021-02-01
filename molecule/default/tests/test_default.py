@@ -9,4 +9,4 @@ testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
 
 def test_omego(host):
     out = host.check_output('/opt/omero/omego/bin/omego version')
-    assert re.match('\d+\.\d+\.\d+', out)
+    assert re.match(r'\d+\.\d+\.\d+', out)
